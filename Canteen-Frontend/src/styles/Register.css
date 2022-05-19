@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+    
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    background-image: url(../img/registration_bg.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+    
+}
+
+.App {
+   color: rgb(41, 40, 40);
+   width: 100%;
+   height: 100%;
+}
+
+section {
+    margin:auto;
+    max-width: 400px;
+    max-height: 800px;
+    padding: 1rem;
+    margin-top: 8rem;
+    background: rgb(65,157,246);
+    background: linear-gradient(180deg, rgba(230, 240, 250, 0.8) 16%, rgba(255, 255, 255, 0.4) 65%);
+}
+
+main{
+  width: 100%;
+  height: 15000px;
+  margin: auto 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+a, a:visited {
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
+  padding: 0.25rem;
+  border-radius: 0.3rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.65rem;
+    border-radius: 0.5rem;
+    background: rgb(34, 34, 34);
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: rgb(116, 7, 49);
+    margin-left: 0.25rem;
+}
+
+.errMsg {
+    background-color: lightpink;
+    color: rgb(71, 6, 31);
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+.hello{
+  margin-top: 25rem;
+}
